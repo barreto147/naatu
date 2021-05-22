@@ -1,0 +1,371 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+header .nav-space{
+    height: 2em;
+    background-color: #432322;
+}
+header .navbar{
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: #542f2e !important;
+}
+
+@media (min-width: 992px) {
+    header .navbar{
+        height: 80px; /*Media Query*/
+      
+    }
+}
+
+
+header .navbar a{
+    color: #FFF !important
+}
+header .navbar #logo-relative{
+    position: relative;
+    top: 10px;
+}
+header .navbar .btn {
+    color: #FFF;
+}
+
+header .navbar .btn.social-link {
+    padding-right: 0;
+    transition: all .4s;
+}
+
+header .navbar #cart{
+    color: #e59a3f;
+    border: solid 1px #e59a3f
+}
+
+header .navbar .btn.social-link:hover {
+    -webkit-animation-name: shake;    
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-transform-origin: 50% 100%;
+    animation-name: shake;    
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 50% 100%;
+}
+
+@-webkit-keyframes shake {
+    0%  { -webkit-transform:     translate(2px, 1px) rotate(0deg); }
+    10% { -webkit-transform:     translate(-1px, -2px) rotate(-2deg); }
+    20% { -webkit-transform:     translate(-3px, 0px) rotate(3deg); }
+    30% { -webkit-transform:     translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform:     translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform:     translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform:     translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform:     translate(2px, 1px) rotate(-2deg); }
+    80% { -webkit-transform:     translate(-1px, -1px) rotate(4deg); }
+    90% { -webkit-transform:     translate(2px, 2px) rotate(0deg); }
+    100%{ -webkit-transform:     translate(1px, -2px) rotate(-1deg); }
+   }
+
+@keyframes shake {
+    0%  { -webkit-transform:     translate(2px, 1px) rotate(0deg); }
+    10% { -webkit-transform:     translate(-1px, -2px) rotate(-2deg); }
+    20% { -webkit-transform:     translate(-3px, 0px) rotate(3deg); }
+    30% { -webkit-transform:     translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform:     translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform:     translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform:     translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform:     translate(2px, 1px) rotate(-2deg); }
+    80% { -webkit-transform:     translate(-1px, -1px) rotate(4deg); }
+    90% { -webkit-transform:     translate(2px, 2px) rotate(0deg); }
+    100%{ -webkit-transform:     translate(1px, -2px) rotate(-1deg); }
+   }
+
+
+
+/***********************************************FOOTER***********************************************/
+
+footer{
+    background-color: #432322;
+    
+}
+
+footer ul{
+    margin-top: 35px;
+}
+
+footer ul li {
+    display: inline;
+    padding-right: .5em;
+    font-size: 1vw;
+    text-align: center;
+    color: #FFF;
+}
+footer ul li a:link, footer ul li a:visited, footer ul li a:active {
+    text-decoration: none;
+    color: #FFF;
+    
+}
+footer ul li a:hover, .navbar ul a:hover {
+    text-decoration: none;
+    color: #f06239 !important;
+}
+
+/*********************************************FIN*FOOTER*********************************************/
+
+/***********************************************MAIN*************************************************/
+
+main{
+    margin-top: 5em;
+}
+
+/*********************************************FIN*MAIN***********************************************/
+
+.divider{
+    position: relative;
+    top: -22px;
+}
+
+.divider img{
+    width: 100%;
+    height: 40px;
+}
+
+.carousel-caption  h5{
+    font-size: 1.5vw !important
+}
+.carousel-caption a {
+    font-size: 1.3vw !important;
+    position: relative;
+    top: -1.5vw
+}
+
+#productos{
+    background-color: #fbf7ec;
+}
+
+#productos .bg-header{
+    background-image: url('img/productos/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@media(max-width:767px){
+    .bg-header{
+        background-image: url('img/header-mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+.custom-btn{
+    background-image: url('img/banner/boton.png');
+    background-size: 100% 100%;
+    color: #FFF;
+}
+.custom-btn:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+#tejidos-1{
+    background-image: url('img/tejidos_1/background.png');
+    background-size: 100% 100%;
+    min-height: 75vh;
+    color: #FFF;
+}
+
+#tejidos-2{
+    background-image: url('img/tejidos_2/background.png');
+    background-size: 100% 100%;
+    min-height: 75vh;
+    color: #68322e;
+}
+
+h2{
+    font-weight: 800;
+}
+
+.separador{
+    width: 50%;
+}
+.separador.black{
+    border-bottom: 5px dotted #00000066;
+}
+
+.separador.white{
+    border-bottom: 5px dotted #FFFFFFaa;
+}
+.separador.yellow{
+    border-bottom: 5px dotted #e79b3f;
+}
+
+#hilos{
+    background-color: #5b3c3a;
+    color: #ece0d4;
+}
+#hilos strong{
+    color: #e79b3f;
+}
+
+#hilos .figure-caption {
+    background-color: #00000055;
+    position: relative;
+    top: -35px;
+    color: #FFFFFFcc;
+}
+#blog .figure-caption{
+    background-color: #5b3c3a;
+    position: relative;
+    top: -1px;
+    color: #FFF;
+}
+
+#tejidos-1 .btn-block, #tejidos-2 .btn-block {
+    background-color: #68322e;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 0;
+    margin: 0;
+    width: 98%;
+}
+
+#tejidos-1 .figure-caption, #tejidos-2 .figure-caption {
+    padding: 0 !important;
+    position: relative;
+    top: -40px;
+    left: 4px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#tejidos-1 .figure:hover > .figure-caption, #tejidos-2 .figure:hover > .figure-caption {
+    opacity: 1;
+}
+
+.custom-btn:hover, .custom-btn-2:hover {
+    filter: saturate(200%);
+}
+
+
+.carousel-item figure {
+	position: relative;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 320px;
+	max-width: 480px;
+	max-height: 360px;
+	width: 48%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.carousel-item figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.carousel-item figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.carousel-item figure figcaption::before,
+.carousel-item figure figcaption::after {
+	pointer-events: none;
+}
+
+.carousel-item figure figcaption,
+.carousel-item figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.carousel-item figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+.carousel-item figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.carousel-item figure h2 span {
+	font-weight: 800;
+    letter-spacing: 1px;
+}
+figure.effect-chico img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+figure.effect-chico:hover img {
+	opacity: 0.5;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-chico figcaption {
+	padding: 3em;
+}
+
+figure.effect-chico figcaption::before {
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-chico h2 {
+	padding: 20% 0 20px 0;
+}
+
+figure.effect-chico p {
+	margin: 0 auto;
+	max-width: 200px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
